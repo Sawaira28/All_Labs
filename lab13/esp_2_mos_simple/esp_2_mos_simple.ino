@@ -4,9 +4,9 @@
 
 #define DHTPIN 4        // GPIO pin connected to DHT22
 #define DHTTYPE DHT11    // DHT 22 (AM2302)
-#define WIFI_SSID "ME."
-#define WIFI_PASSWORD "--_--_--"
-#define MQTT_SERVER "192.168.186.76"  // Replace with your Windows PC's IP address on LAN
+#define WIFI_SSID "itel A05s"
+#define WIFI_PASSWORD "12345678923"
+#define MQTT_SERVER "192.168.115.218"  // Replace with your Windows PC's IP address on LAN
 #define MQTT_PORT 1883
 
 DHT dht(DHTPIN, DHTTYPE);
